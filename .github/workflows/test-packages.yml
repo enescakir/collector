@@ -10,7 +10,7 @@ jobs:
     strategy:
       matrix:
         # runs-on: [ubicloud-standard-2]
-        runs-on: [ubicloud-standard-16-ubuntu-2004-arm, ubicloud-standard-16-ubuntu-2004]
+        runs-on: [ubicloud-standard-16-ubuntu-2004-arm, ubicloud-standard-8-ubuntu-2004-arm, ubicloud-standard-4-ubuntu-2004-arm, ubicloud-standard-2-ubuntu-2004-arm]
     name: Test ${{matrix.runs-on}}
     runs-on: ${{matrix.runs-on}}
 
